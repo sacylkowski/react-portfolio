@@ -1,3 +1,40 @@
 body {
-    background-image: "src/assets/img/Portfolio-background.jpg";
+    background-image: url("assets/img/Portfolio-background.jpg");
+    background-color: lavender;
+    background-size: 100%;
+}
+
+header {
+    background-color: var(--lavender);
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    padding: 0 30px 0 0;
+}
+
+header a {
+    text-decoration: none;
+    color: teal;
+}
+
+header nav {
+    margin: 10px auto;
+    background-color: antiquewhite;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-weight: bold;
+    font-size: 20px;
+    color: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    padding: 0px 50px 0 50px;
 }
