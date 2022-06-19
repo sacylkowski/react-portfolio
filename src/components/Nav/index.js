@@ -4,9 +4,6 @@ import React from "react";
 function Nav() {
     return (
         <header>
-            <a href="/">
-            <h1>Sarah Cylkowski</h1>
-            </a>
             <nav>
             <ul>
                 <li>
