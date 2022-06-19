@@ -10,10 +10,13 @@ function Nav() {
                 <a href="#about">About me</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#porfolio">Porfolio</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
                 </li>
             </ul>
             </nav>
