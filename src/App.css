@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: antiquewhite;
+    background-color: #36454F;
     display: flex;
     flex-wrap: wrap;
     top: 0;
