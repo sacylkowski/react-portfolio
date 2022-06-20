@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #36454F;
+    background-color: darkgoldenrod;
     display: flex;
     flex-wrap: wrap;
     top: 0;
@@ -33,10 +33,14 @@ header nav ul {
 header nav ul li a {
     font-weight: bold;
     font-size: 28px;
-    color: darkgoldenrod;
+    color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     padding: 0px 50px 0 50px;
+}
+
+.portrait {
+    justify-content: center;
 }
 
 .contact-me {
@@ -61,14 +65,29 @@ header nav ul li a {
     text-align: center;
 }
 
-#contact-form {
+.contact-form input, .contact-form textarea {
+    border: 1px solid black;
     display: block;
-    
+    padding: 6px 30px;
+    font-size: 16px;
+    color: darkcyan;
+    margin: 5px 0 15px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
 
+.contact-form button {
+    padding: 10px 20px;
+    background-color: darkgoldenrod;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 footer {
-    background-color: antiquewhite;
+    background-color: white;
     padding: auto;
     display: flex;
     /* flex-wrap: wrap; */
