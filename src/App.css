@@ -45,6 +45,9 @@ header nav ul {
     color: purple;
 }
 
+.project1 {
+    justify-content: center;
+}
 .portrait {
     justify-content: center;
 }
