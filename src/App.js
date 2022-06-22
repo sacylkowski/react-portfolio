@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState();
 
   // switch statement
     const renderPage = () => {
@@ -31,8 +31,6 @@ function App() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <main>
-        <About></About>
-        <Contact></Contact>
         </main>
         <footer><Footer /></footer>
     </div>
