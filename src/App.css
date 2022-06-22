@@ -30,13 +30,19 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li a {
+/* header nav ul li a */
+
+.nav-link {
     font-weight: bold;
     font-size: 28px;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     padding: 0px 50px 0 50px;
+}
+
+.active {
+    color: purple;
 }
 
 .portrait {
