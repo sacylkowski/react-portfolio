@@ -5,7 +5,7 @@ import instagramIcon from "../../../src/assets/img/instagram-icon.png";
 
 function Footer() {
     return (
-        <div>
+            <div>
                 <a href="https://www.linkedin.com/in/sarah-cylkowski-43197566/">
                     <img
                         src={linkedInIcon}
@@ -28,10 +28,9 @@ function Footer() {
                     />
                 </a>
                 <div className="copyright">
-             &copy; Sarah Cylkowski
-             </div>
-            
-        </div>
+                    &copy; Sarah Cylkowski
+                </div>
+            </div>
     );
 }
 

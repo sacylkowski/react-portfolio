@@ -49,11 +49,10 @@ header nav ul {
     justify-content: center;
 }
 .portrait {
-    justify-content: center;
+    justify-content: right;
 }
 
 .contact-me {
-    display: flex;
     justify-content: center;
 }
 
@@ -95,15 +94,24 @@ header nav ul {
     margin-bottom: 20px;
 }
 
+.resume {
+    justify-content: center;
+}
+
 footer {
     background-color: white;
     padding: auto;
-    display: flex;
-    /* flex-wrap: wrap; */
 }
 
 footer a {
     padding: 5px;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .copyright {

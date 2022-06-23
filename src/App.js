@@ -11,28 +11,30 @@ function App() {
   const [currentPage, setCurrentPage] = useState();
 
   // switch statement
-    const renderPage = () => {
-        if (currentPage === 'About') {
-            return <About />;
-          }
-          if (currentPage === 'Portfolio') {
-            return <Projects />;
-          }
-          if (currentPage === 'Contact') {
-            return <Contact />;
-          }
-          return <Resume />;
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
     }
+    if (currentPage === 'Portfolio') {
+      return <Projects />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <Resume />;
+  }
 
-    const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="App">
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
-      <main>
+    <div className="flex-wrapper">
+      <div className="App">
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        {renderPage()}
+        <main>
         </main>
         <footer><Footer /></footer>
+      </div>
     </div>
   );
 }

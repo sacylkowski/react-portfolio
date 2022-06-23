@@ -1,13 +1,12 @@
 import React from "react";
-import resume from "../../assets/img/sunrise.jpeg";
+import resume from "../../assets/img/Resume.jpg";
 
 function Resume() {
     return(
-        <section>
+        <section className="resume">
             <h2>
-                Checkout out my Resume below:
-                <img src={resume} style={{ width: "30% " }} alt="resume" />
-            </h2>
+                Checkout out my Resume below: </h2>
+                <img src={resume} style={{ width: "50% " }} alt="resume" />
         </section>
     )
 };
