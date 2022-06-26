@@ -12,8 +12,8 @@ function App() {
 
   // switch statement
   const renderPage = () => {
-    if (currentPage === 'About') {
-      return <About />;
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     if (currentPage === 'Portfolio') {
       return <Projects />;
@@ -21,7 +21,7 @@ function App() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    return <Resume />;
+    return <About />;
   }
 
   const handlePageChange = (page) => setCurrentPage(page);
