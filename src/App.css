@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: darkgoldenrod;
+    background-color: #36454F;
     display: flex;
     flex-wrap: wrap;
     top: 0;
@@ -42,14 +42,31 @@ header nav ul {
 }
 
 .active {
-    color: purple;
+    color: lightblue;
 }
 
 .project1 {
     justify-content: center;
 }
+
 .portrait {
-    justify-content: right;
+    display: flex;
+}
+
+.portrait img {
+    padding: 20px 0 40px 20px;
+}
+
+.about-me {
+    padding: 65px 50px 0 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-me h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .contact-me {
@@ -73,6 +90,9 @@ header nav ul {
     text-align: center;
 }
 
+.contact-form {
+    padding-left: 20%;
+}
 .contact-form input, .contact-form textarea {
     border: 1px solid black;
     display: block;
@@ -86,7 +106,7 @@ header nav ul {
 
 .contact-form button {
     padding: 10px 20px;
-    background-color: darkgoldenrod;
+    background-color: #36454F;
     color: white;
     font-size: 16px;
     border: none;
@@ -95,9 +115,12 @@ header nav ul {
 }
 
 .resume {
-    justify-content: center;
+    text-align: center;
 }
 
+.skills {
+    padding-left: 20%;
+}
 footer {
     background-color: white;
     padding: auto;

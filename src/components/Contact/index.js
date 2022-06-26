@@ -3,8 +3,8 @@ import React from "react";
 function Contact() {
     return(
         <section id="contact-info" className="contact-me">
-        <div class="contact">
-            <p class="section-title">Fill out the form, or feel free to e-mail me at:  <a href="mailto:sacylkowski@gmail.com">Sacylkowski@gmail.com</a></p>
+        <div className="contact">
+            <p className="section-title">Fill out the form, or feel free to e-mail me at:  <a href="mailto:sacylkowski@gmail.com">Sacylkowski@gmail.com</a></p>
            </div>
            <form className="contact-form">
             <div>
