@@ -45,9 +45,10 @@ header nav ul {
     color: lightblue;
 }
 
-.project1 {
+/* .project1 {
     justify-content: center;
-}
+    display: inline-block;
+} */
 
 .portrait {
     display: flex;
@@ -102,6 +103,39 @@ header nav ul {
     border: none;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.projects {
+    margin-left: 100px;
+}
+
+.projects h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.column p {
+    margin-right: 90px;
+}
+
+.column a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
 }
 
 .resume {
