@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sacylkowski.github.io",
+  "homepage": "https://sacylkowski.github.io/react-portfolio/",
   "dependencies": {
     "-": "^0.0.1",
     "@emailjs/browser": "^3.6.2",
