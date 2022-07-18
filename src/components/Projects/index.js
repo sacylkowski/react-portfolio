@@ -3,7 +3,7 @@ import dandd from "../../assets/img/WizardoftheCode.png";
 import readme from "../../assets/img/Readme-gen.png";
 import generator from "../../assets/img/PW-generator.png";
 import budget from "../../assets/img/Budget-tracker.png";
-import tracker from "../../assets/img/Employee-tracker.png";
+import tavern from "../../assets/img/tavern-masters.png";
 import vacation from "../../assets/img/vacation-vibes.png";
 
 
@@ -27,10 +27,10 @@ function Projects() {
       </div>
       <div className="row">
         <div className="column">
-          <h1>Employee Tracker</h1>
-          <p>This is a commandline app that where you add information about each team member to create a directory.  The database is made into an HTML file that you can view afterwards.<br />
-            <a href="https://github.com/sacylkowski/employee-tracker">GitHub Repo</a></p>
-          <img src={tracker} style={{ width: "80% " }} alt="Employee Tracker" />
+          <h1>Tavern Masters</h1>
+          <p>This app helps new role playing game player to create their campaigns.  The user can add encounters to their campaign and view other user's campaigns as well.<br />
+            <a href="https://github.com/sacylkowski/tavern-masters">GitHub Repo</a> <a href="https://tavern-masters.herokuapp.com/">Live Site</a></p>
+          <img src={tavern} style={{ width: "80% " }} alt="Tavern Masters" />
         </div>
         <div className="column">
           <h1>Budget Tracker</h1>
