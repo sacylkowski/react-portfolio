@@ -11,7 +11,7 @@
   To run the app, go to your command line and enter: `npm start` to run the app in development mode.  Open [http://localhost:3000](http://localhost:3000) to view it in your browser. <br />
   You can checkout the site below: <br />
 
-<a href="https://drive.google.com/file/d/1YNYAcQg8YTFS2JZl2YDwCc1ieN6qRMTv/view">Here is the live site.</a>
+<a href="https://sacylkowski.github.io/react-portfolio/">Here is the live site.</a>
 
   <img src="Website-example.png" alt="image of program running" width="1206" />
   
