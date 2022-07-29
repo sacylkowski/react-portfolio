@@ -35,7 +35,7 @@ function App() {
         {renderPage()}
         <main>
         </main>
-        <Footer />
+        <footer><Footer /></footer>
       </div>
     </div>
   );
