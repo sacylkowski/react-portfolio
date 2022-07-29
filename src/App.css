@@ -49,6 +49,18 @@ header nav ul {
     color: var(--dark);
 }
 
+.header-title {
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: var(--accent-yellow);
+    font-size: 2.5em;
+    text-shadow: 1px 1px var(--dark);
+}
+
+.header-subtitle {
+    font-family: 'Merriweather', serif;
+}
+
 /* HEADER AND NAV END */
 
 /* ABOUT ME START */
@@ -77,7 +89,6 @@ header nav ul {
 
 .about-me h1 {
     text-align: center;
-    font-size: 30px;
     font-family: 'Merriweather', serif;
 }
 
@@ -87,7 +98,7 @@ header nav ul {
     flex-direction: row;
     width: 100%;
     background-color: var(--mint);
-
+    padding: 3%;
 }
 
 .bioHeading {
@@ -105,6 +116,31 @@ header nav ul {
     border: 8px dotted var(--accent-orange);
     height: 300px;
     margin: 40px;
+}
+
+.interests {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 25px;
+    padding: 3%;
+    font-family: 'Merriweather', serif;
+}
+
+.allInterests {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hobby-group {
+    padding-top: 20px;
+}
+
+.interest-title {
+    padding: 0 50px;
 }
 /* ABOUT ME END */
 
