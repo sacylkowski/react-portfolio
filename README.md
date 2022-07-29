@@ -13,7 +13,7 @@
 
 <a href="https://sacylkowski.github.io/react-portfolio/">Here is the live site.</a>
 
-  <img src="Website-example.png" alt="image of program running" width="1206" />
+  <img src="./src/assets/img/Website-example.png" alt="image of program running" width="1206" />
   
 
  ## Built With

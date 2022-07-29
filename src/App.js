@@ -33,7 +33,7 @@ function App() {
         {renderPage()}
         <main>
         </main>
-        <footer><Footer /></footer>
+        <Footer />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import instagramIcon from "../../../src/assets/img/instagram-icon.png";
 
 function Footer() {
     return (
-            <div>
+            <footer className="footer d-flex flex-row justify-content-center align-items-left">
                 <a href="https://www.linkedin.com/in/sarah-cylkowski-43197566/">
                     <img
                         src={linkedInIcon}
@@ -30,7 +30,7 @@ function Footer() {
                 <div className="copyright">
                     &copy; Sarah Cylkowski
                 </div>
-            </div>
+            </footer>
     );
 }
 
