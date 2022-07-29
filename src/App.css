@@ -1,7 +1,9 @@
 :root {
-    --primary-color: #dfa317;
-    --second-color: #dfAE3b;
-    --third-color: #035642; 
+    --dark: #183a1d;
+    --main: #fefbe9;
+    --mint: #e1eedd; 
+    --accent-yellow: #f6c453;
+    --accent-orange: #f0a04b;
 }
 
 * {
@@ -11,18 +13,18 @@
   }
 
 body {
-    background-image: url("assets/img/Portfolio-background.jpg");
-    background-color: lavender;
+    background-color: var(--main);
     background-size: 100%;
 }
 
 /* HEADER AND NAV START */
 header {
-    background-color: #36454F;
+    background-color: var(--main);
     display: flex;
     flex-wrap: wrap;
     top: 0;
     padding: 0 50px 0 0;
+    font-family: 'Merriweather', serif;
 }
 
 header nav {
@@ -38,16 +40,13 @@ header nav ul {
 }
 
 .nav-link {
-    font-weight: bold;
-    font-size: 28px;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: none;
+    font-size: 38px;
+    color: var(--accent-yellow);
     padding: 0px 50px 0 50px;
 }
 
 .active {
-    color: lightblue;
+    color: var(--dark);
 }
 
 /* HEADER AND NAV END */
@@ -55,25 +54,58 @@ header nav ul {
 /* ABOUT ME START */
 
 .portrait {
+    align-items: center;
+    background-color: var(--main);
     display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .portrait img {
-    padding: 20px 0 40px 20px;
+    border: 8px dotted var(--accent-orange);
+    border-radius: 400px;
+    width: auto;
+    height: 400px;
+    margin: 0 10px 20px 60px;
 }
 
 .about-me {
-    padding: 65px 50px 0 50px;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 15px;
+    width: 60%;
+    padding-left: 20px;
 }
 
-.about-me h2 {
+.about-me h1 {
     text-align: center;
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
 }
 
+.moreInfo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--mint);
+
+}
+
+.bioHeading {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.bio {
+    text-align: center;
+    margin-left: 15px;
+}
+
+.moreInfo img {
+    border: 8px dotted var(--accent-orange);
+    height: 300px;
+    margin: 40px;
+}
 /* ABOUT ME END */
 
 /* CONTACT START */
@@ -179,7 +211,7 @@ header nav ul {
 
 /* FOOTER START */
 footer {
-    background-color: antiquewhite;
+    background-color: var(--accent-orange);
     padding: auto;
     position: fixed;
 }

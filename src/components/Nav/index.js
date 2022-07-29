@@ -3,7 +3,7 @@ import React from "react";
 
 function Nav({ currentPage, handlePageChange }) {
     return (
-        <header>
+        <header className="nav-container d-flex flex-row align-items-center justify-content-center mb-0">
             <nav>
             <ul>
                 <li>
