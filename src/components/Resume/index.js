@@ -6,7 +6,7 @@ function Resume() {
         <div>
             <section className="resume">
                 <h2>
-                    Feel free to download my <a href={resume} target="_blank">resume</a>.
+                    Feel free to download my <a href={resume} target="_blank" rel="noreferrer">resume</a>.
                 </h2>
             </section>
             <section className="skills">

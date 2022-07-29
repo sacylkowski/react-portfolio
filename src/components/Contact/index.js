@@ -1,5 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import validateEmail from "../../utils/helpers";
+import { MdOutlineMail } from "react-icons/md";
+import { BiMessageDetail } from "react-icons/bi";
 
 function Contact() {
 
@@ -44,9 +46,23 @@ function Contact() {
     return (
         <section id="contact-info" className="contact-me">
             <div className="contact">
-                <p className="section-title">Fill out the form, or feel free to e-mail me at:  <a href="mailto:sacylkowski@gmail.com">Sacylkowski@gmail.com</a></p>
+                <p className="section-title">Get In Touch!< br />
+                    Fill out the form, or feel free to e-mail me at:  <a href="mailto:sacylkowski@gmail.com" className="myEmail">Sacylkowski@gmail.com</a></p>
             </div>
-            <form className="contact-form">
+            <div className="contacts">
+                <article className="contactEmail">
+                    <MdOutlineMail />
+                    <p className="">E-mail</p>
+                    <p className="">Sacylkowski@gmail.com</p>
+                    <a href="mailto:sacylkowski@gmail.com">Send me an E-mail</a>
+                </article>
+                <article className="contactLinkedin">
+                    <BiMessageDetail />
+                    <p className="">LinkedIn</p>
+                    <a href="https://www.linkedin.com/in/sarahcylkowski/" target="_blank" rel="noreferrer" className="">Message me on LinkedIn</a>
+                </article>
+            </div>
+            <form action="" className="contact-form">
                 <div>
                     <label htmlFor="name">Name:    </label>
                     <input type="text" name="name" value={name} onChange={handleInputChange} />
@@ -56,9 +72,9 @@ function Contact() {
                 </div>
                 <div>
                     <label htmlFor="message">Message: </label>
-                    <textarea name="name" value={message} onChange={handleInputChange}/>
+                    <textarea name="message" rows="7" value={message} onChange={handleInputChange} />
                 </div>
-                <button type="submit" onClick={handleFormSubmit} onChange={handleInputChange}>Submit</button>
+                <button type="submit" className="messageBtn" onClick={handleFormSubmit} onChange={handleInputChange}>Send message</button>
             </form>
             {errorMessage && (
                 <div>
