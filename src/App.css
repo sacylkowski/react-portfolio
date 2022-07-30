@@ -237,37 +237,71 @@ header nav ul {
 
 /* PORTFOLIO START */
 
-.projects {
-    margin-left: 100px;
+.portfolio {
+    background-color: var(--mint);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 20px;
 }
 
-.projects h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-}
-
-.column {
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px lightgray;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
 }
 
-.column p {
-    margin-right: 90px;
+.card:hover{
+    transform: scale(1.05);
 }
 
-.column a {
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 30px;
+.cardTitle {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 2%;
+}
+
+.description {
+    font-size: 18px;
+    text-align: center;
+    line-height: normal;
+}
+
+.skillsUsed {
+    font-size: 14px;
+    text-align: center;
+    line-height: normal;
+}
+
+.btns {
+    display: inline;
+    justify-content: center;
+    gap: 1rem;
+}
+.githubLink {
+    width: 45%;
+    background-color: var(--dark);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+.liveSite {
+    width: 45%;
+    background-color: var(--dark);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
 }
 
 /* PORTFOLIO END */
@@ -306,7 +340,7 @@ header nav ul {
  footer {
     background-color: var(--accent-orange);
     bottom: 0;
-    height: 50px;
+    height: 60px;
     position: fixed;
     width: 100%;
     align-items: center;

@@ -1,40 +1,22 @@
 import React from "react";
-import dandd from "../../assets/img/WizardoftheCode.png";
-import readme from "../../assets/img/Readme-gen.png";
-import generator from "../../assets/img/PW-generator.png";
-import budget from "../../assets/img/Budget-tracker.png";
-import tavern from "../../assets/img/tavern-masters.png";
-import vacation from "../../assets/img/vacation-vibes.png";
 
 
-function Projects() {
+function Projects(props) {
 
   return (
-    <div className="projects">
-      <div className="row">
-        <div className="column">
-          <h1>D & D character generator</h1>
-          <p>This app lets you create D & D characters and save them to your account when you are logged in. <br />
-            <a href="https://github.com/sacylkowski/wizards-code">GitHub Repo</a> <a href="https://warm-cove-70741.herokuapp.com/">Live Site</a></p>
-          <img src={dandd} style={{ width: "80% " }} alt="D&D character generator" />
-          <p> This uses: bcrypt, dotenv, Express.js, express-handlebars, express-session, foundation-cli, jest, mysql2, node-fetch, and sequelize</p>
+      <div className="card">
+        <div className="cardBody">
+          <h1 className="cardTitle">{props.title}</h1>
+          <img src={props.img} style={{ width: "100% " }} alt="portfolio images"/>
+          <p className="description">{props.description}</p>
+          <p className="skillsUsed">{props.skills}</p>
         </div>
-        <div className="column">
-          <h1>Password generator</h1>
-          <p>This app asks the user a series of questions regarding what they would like in a password.  The new password is then generated.<br />
-            <a href="https://github.com/sacylkowski/password-generator">GitHub Repo</a> <a href="https://sacylkowski.github.io/password-generator/">Live Site</a></p>
-          <img src={generator} style={{ width: "80% " }} alt="PW generator" />
-          <p> This uses: HTML, CSS, and JavaScript</p>
+        <div className="btns">
+        <button className="githubLink">Github Repo</button>
+        <button className="liveSite">Live Site</button>
         </div>
-      </div>
-      <div className="row">
-        <div className="column">
-          <h1>Tavern Masters</h1>
-          <p>This app helps new role playing game player to create their campaigns.  The user can add encounters to their campaign and view other user's campaigns as well.<br />
-            <a href="https://github.com/sacylkowski/tavern-masters">GitHub Repo</a> <a href="https://tavern-masters.herokuapp.com/">Live Site</a></p>
-          <img src={tavern} style={{ width: "80% " }} alt="Tavern Masters" />
-          <p> This uses: React, GraphQL, Node.js, Express.js, MongoDB, Mongoose, Apollo-Client, and JWT</p>
-        </div>
+      {/* 
+        
         <div className="column">
           <h1>Budget Tracker</h1>
           <p>This is a PWA that keeps track of your expenses.  You can add and subtract funds online and offline. <br />
@@ -58,7 +40,7 @@ function Projects() {
           <img src={vacation} style={{ width: "80% " }} alt="Vacation Vibes" />
           <p> This uses: HTML, CSS, JavaScript, Bulma, jQuery, and APIs</p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

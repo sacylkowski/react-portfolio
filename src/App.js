@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Header from "./components/Header";
 
@@ -17,7 +18,7 @@ function App() {
       return <Resume />;
     }
     if (currentPage === 'Portfolio') {
-      return <Projects />;
+      return <Portfolio />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
