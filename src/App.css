@@ -59,6 +59,7 @@ header nav ul {
 
 .header-subtitle {
     font-family: 'Merriweather', serif;
+    padding-bottom: 10px;
 }
 
 /* HEADER AND NAV END */
@@ -150,8 +151,10 @@ header nav ul {
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 2%;
+    background-color: var(--mint);
+    padding-bottom: 10%;
 }
 
 .myEmail {
@@ -172,19 +175,25 @@ header nav ul {
 } */
 
 .contact-form {
-    /* padding-left: 20%; */
+   width: 500px;
+   padding-top: 15px;
+}
+
+.contact-form h2 {
+    font-family: 'Merriweather', serif;
 }
 
 .contact-form input,
 .contact-form textarea {
-    border: 1px solid black;
+    border: 1px solid var(--dark);
     display: block;
     padding: 6px 30px;
     font-size: 16px;
-    color: darkcyan;
-    margin: 5px 0 15px 20px;
+    color: var(--dark);
+    margin: 0 0 10px 0;
     border-radius: 10px;
     background-color: white;
+    width: 90%;
 }
 
 .contact-form button {
@@ -197,17 +206,31 @@ header nav ul {
     margin-bottom: 20px;
 }
 
+.error-text {
+    color: red;
+}
+
+.contacts {
+    width: 25%;
+}
+
 .contactEmail {
-    border: 5px solid var(--accent-orange);
+    border: 5px solid var(--accent-yellow);
     padding: 10%;
     border-radius: 50px;
+    text-align: center;
 }
 
 .contactLinkedin {
-    border: 5px solid var(--accent-orange);
+    border: 5px solid var(--accent-yellow);
     padding: 10%;
     margin-top: 20%;
     border-radius: 50px;
+    text-align: center;
+}
+
+.contacts a {
+    color: var(--accent-orange);
 }
 
 /* CONTACT END */
@@ -260,17 +283,18 @@ header nav ul {
     padding-right: 10%;
     padding-top: 2%;
     padding-bottom: 8%;
-
+    background-color: var(--mint);
 }
 
 .resume {
     text-align: center;
-    border: 7px solid var(--accent-orange);
+    border: 5px solid var(--accent-yellow);
+    border-radius: 50px;
     padding: 5%;
 }
 
 .resumeIcon {
-    color: var(--dark);
+    color: var(--accent-orange);
 }
 .skills h2 {
     font-family: 'Merriweather', serif;

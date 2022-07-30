@@ -7,21 +7,21 @@ function Footer() {
     return (
             <footer className="footer d-flex flex-row">
                 <div className="allIcons">
-                <a href="https://www.linkedin.com/in/sarah-cylkowski-43197566/">
+                <a href="https://www.linkedin.com/in/sarah-cylkowski-43197566/" target="_blank" rel="noreferrer">
                     <img className="socialIcons"
                         src={linkedInIcon}
                         // style={{ width: "12% " }}
                         alt="LinkedIn icon"
                     />
                 </a>
-                <a href="https://github.com/sacylkowski">
+                <a href="https://github.com/sacylkowski" target="_blank" rel="noreferrer">
                     <img className="socialIcons"
                         src={githubIcon}
                         // style={{ width: "12% " }}
                         alt="GitHub icon"
                     />
                 </a>
-                <a href="https://www.instagram.com/SarahAnnATX/">
+                <a href="https://www.instagram.com/SarahAnnATX/" target="_blank" rel="noreferrer">
                     <img className="socialIcons"
                         src={instagramIcon}
                         // style={{ width: "12% " }}

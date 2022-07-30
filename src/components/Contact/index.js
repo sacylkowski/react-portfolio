@@ -71,15 +71,12 @@ function Contact() {
             )}
             <div className="contacts">
                 <article className="contactEmail">
-                    <MdOutlineMail />
-                    <p className="">E-mail</p>
-                    <p className="">Sacylkowski@gmail.com</p>
-                    <a href="mailto:sacylkowski@gmail.com">Send me an E-mail</a>
+                <a href="mailto:sacylkowski@gmail.com"><MdOutlineMail size={70}/></a>
+                    <p className="">Send me an e-mail<br />Sacylkowski@gmail.com</p>
                 </article>
                 <article className="contactLinkedin">
-                    <BiMessageDetail />
-                    <p className="">LinkedIn</p>
-                    <a href="https://www.linkedin.com/in/sarahcylkowski/" target="_blank" rel="noreferrer" className="">Message me on LinkedIn</a>
+                <a href="https://www.linkedin.com/in/sarahcylkowski/" target="_blank" rel="noreferrer"><BiMessageDetail size={70}/></a>
+                <p className="">Send me a message on<br />LinkedIn</p>
                 </article>
             </div>
         </section>
