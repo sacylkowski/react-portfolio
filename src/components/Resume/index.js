@@ -1,12 +1,14 @@
 import React from "react";
-import resume from "../../assets/img/Resume.jpg";
+import resume from "../../assets/img/Resume.pdf";
+import { FaRegFileAlt } from "react-icons/fa";
 
 function Resume() {
     return (
-        <div>
+        <div className="resumeContainer">
             <section className="resume">
                 <h2>
-                    Feel free to download my <a href={resume} target="_blank" rel="noreferrer">resume</a>.
+                <a href={resume} target="_blank" rel="noreferrer" className="resumeIcon"><FaRegFileAlt size={80}/> </a><br/>
+                    Feel free to download<br />my resume.
                 </h2>
             </section>
             <section className="skills">
@@ -14,9 +16,8 @@ function Resume() {
                 <p>
                     <ul>
                         <li>HTML</li>
-                        <li>CSS</li>
+                        <li>CSS/Bootstrap</li>
                         <li>JavaScript</li>
-                        <li>Bootstrap</li>
                         <li>SEO</li>
                         <li>React</li>
                     </ul>
@@ -25,11 +26,13 @@ function Resume() {
                 <p>
                     <ul>
                         <li>APIs</li>
-                        <li>Node</li>
-                        <li>Express</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
                         <li>MySQL, Sequelize</li>
                         <li>MongoDB, Mongoose</li>
-                        <li>REST</li>
+                        <li>REST APIs</li>
+                        <li>IndexedDB</li>
+                        <li>Progressive Web Applications</li>
                         <li>GraphQL</li>
                     </ul>
                 </p>

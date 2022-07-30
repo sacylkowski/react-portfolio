@@ -44,25 +44,13 @@ function Contact() {
     };
 
     return (
-        <section id="contact-info" className="contact-me">
-            <div className="contact">
+        <section id="contact-info" className="contactMe">
+            {/* <div className="contact">
                 <p className="section-title">Get In Touch!< br />
                     Fill out the form, or feel free to e-mail me at:  <a href="mailto:sacylkowski@gmail.com" className="myEmail">Sacylkowski@gmail.com</a></p>
-            </div>
-            <div className="contacts">
-                <article className="contactEmail">
-                    <MdOutlineMail />
-                    <p className="">E-mail</p>
-                    <p className="">Sacylkowski@gmail.com</p>
-                    <a href="mailto:sacylkowski@gmail.com">Send me an E-mail</a>
-                </article>
-                <article className="contactLinkedin">
-                    <BiMessageDetail />
-                    <p className="">LinkedIn</p>
-                    <a href="https://www.linkedin.com/in/sarahcylkowski/" target="_blank" rel="noreferrer" className="">Message me on LinkedIn</a>
-                </article>
-            </div>
+            </div> */}
             <form action="" className="contact-form">
+                <h2>Get in touch:</h2>
                 <div>
                     <label htmlFor="name">Name:    </label>
                     <input type="text" name="name" value={name} onChange={handleInputChange} />
@@ -81,6 +69,19 @@ function Contact() {
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
+            <div className="contacts">
+                <article className="contactEmail">
+                    <MdOutlineMail />
+                    <p className="">E-mail</p>
+                    <p className="">Sacylkowski@gmail.com</p>
+                    <a href="mailto:sacylkowski@gmail.com">Send me an E-mail</a>
+                </article>
+                <article className="contactLinkedin">
+                    <BiMessageDetail />
+                    <p className="">LinkedIn</p>
+                    <a href="https://www.linkedin.com/in/sarahcylkowski/" target="_blank" rel="noreferrer" className="">Message me on LinkedIn</a>
+                </article>
+            </div>
         </section>
     );
 }

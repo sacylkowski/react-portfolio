@@ -147,9 +147,11 @@ header nav ul {
 /* CONTACT START */
 
 .contactMe {
-    display: grid;
-    grid-template-columns: 30% 60%;
-    gap: 12%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
 }
 
 .myEmail {
@@ -161,16 +163,16 @@ header nav ul {
     font-weight: bold;
     font-size: 20px;
 }
-
+/* 
 .section-title {
     font-size: 20px;
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
-}
+} */
 
 .contact-form {
-    padding-left: 20%;
+    /* padding-left: 20%; */
 }
 
 .contact-form input,
@@ -193,6 +195,19 @@ header nav ul {
     border: none;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.contactEmail {
+    border: 5px solid var(--accent-orange);
+    padding: 10%;
+    border-radius: 50px;
+}
+
+.contactLinkedin {
+    border: 5px solid var(--accent-orange);
+    padding: 10%;
+    margin-top: 20%;
+    border-radius: 50px;
 }
 
 /* CONTACT END */
@@ -235,12 +250,30 @@ header nav ul {
 /* PORTFOLIO END */
 
 /* RESUME START */
-.resume {
-    text-align: center;
+
+.resumeContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+
 }
 
-.skills {
-    padding-left: 20%;
+.resume {
+    text-align: center;
+    border: 7px solid var(--accent-orange);
+    padding: 5%;
+}
+
+.resumeIcon {
+    color: var(--dark);
+}
+.skills h2 {
+    font-family: 'Merriweather', serif;
 }
 
 /* RESUME END */
