@@ -15,7 +15,7 @@ function About() {
             <section className="portrait">
                 <img src={myself} alt="portrait" />
                 <div className="about-me">
-                    <h1>Welcome! <MdOutlineWavingHand /> I'm Sarah</h1>
+                    <h1>Welcome! <MdOutlineWavingHand /> I'm Sarah.</h1>
                     <p>I am an Austin-based Full-Stack Web Developer. I earned my certificate from UT Austin, where I spent a long and enjoyable six months learning how to become a Full-Stack Web Developer.</p>
                 </div>
             </section>
