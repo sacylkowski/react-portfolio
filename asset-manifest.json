@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a5ad830.css",
-    "main.js": "/static/js/main.11627dfe.js",
+    "main.css": "/static/css/main.c24d1626.css",
+    "main.js": "/static/js/main.949b974a.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/vacation-vibes.png": "/static/media/vacation-vibes.24255bbf75f8ceab0d8d.png",
     "static/media/WizardoftheCode.png": "/static/media/WizardoftheCode.8fb8336439117d15e5cb.png",
     "static/media/tavern-masters.png": "/static/media/tavern-masters.e646f0c4577dd8243570.png",
-    "static/media/Resume.jpg": "/static/media/Resume.4cc88fdc1169c3b3d1b7.jpg",
     "static/media/portrait.png": "/static/media/portrait.b8837435d84fb56be8b7.png",
     "static/media/Budget-tracker.png": "/static/media/Budget-tracker.bded35e99fe9cfd60048.png",
     "static/media/Readme-gen.png": "/static/media/Readme-gen.cade35400891312e2662.png",
     "static/media/travelphotos.jpg": "/static/media/travelphotos.c11faae6acc5cf1f25d9.jpg",
     "static/media/PW-generator.png": "/static/media/PW-generator.adfd0e1b5d6d3accbc06.png",
+    "static/media/Resume.pdf": "/static/media/Resume.268c27af2a4d2f4c336d.pdf",
     "static/media/instagram_icon.png": "/static/media/instagram_icon.ff9721125ed9d2cea46e.png",
     "static/media/github_icon.png": "/static/media/github_icon.31b4f10e5e554228d89a.png",
     "index.html": "/index.html",
-    "main.9a5ad830.css.map": "/static/css/main.9a5ad830.css.map",
-    "main.11627dfe.js.map": "/static/js/main.11627dfe.js.map",
+    "main.c24d1626.css.map": "/static/css/main.c24d1626.css.map",
+    "main.949b974a.js.map": "/static/js/main.949b974a.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a5ad830.css",
-    "static/js/main.11627dfe.js"
+    "static/css/main.c24d1626.css",
+    "static/js/main.949b974a.js"
   ]
 }
