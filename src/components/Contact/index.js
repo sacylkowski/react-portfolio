@@ -72,7 +72,7 @@ function Contact() {
             <div className="contacts">
                 <article className="contactEmail">
                 <a href="mailto:sacylkowski@gmail.com"><MdOutlineMail size={70}/></a>
-                    <p className="">Send me an e-mail<br />Sacylkowski@gmail.com</p>
+                    <p className="emailText">Send me an e-mail<br />Sacylkowski@gmail.com</p>
                 </article>
                 <article className="contactLinkedin">
                 <a href="https://www.linkedin.com/in/sarahcylkowski/" target="_blank" rel="noreferrer"><BiMessageDetail size={70}/></a>
