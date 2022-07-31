@@ -6,12 +6,14 @@ import { MdOutlineBakeryDining } from "react-icons/md";
 import { GiCommercialAirplane } from "react-icons/gi";
 import { MdPedalBike } from "react-icons/md";
 import travel from "../../../src/assets/img/travelphotos.jpg";
+import { useSpring, animated } from "react-spring";
 
 
 function About() {
+    const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, delay: 800 })
     return (
+        <animated.div style={props}>
         <section className="about-page d-flex flex-column justify-content-center align-items-center">
-
             <section className="portrait">
                 <img src={myself} alt="portrait" />
                 <div className="about-me">
@@ -19,6 +21,7 @@ function About() {
                     <p>I am an Austin-based Full-Stack Web Developer. I earned my certificate from UT Austin, where I spent a long and enjoyable six months learning how to become a Full-Stack Web Developer.</p>
                 </div>
             </section>
+
             <section className="moreInfo">
                 <div className="moreInfoText">
                     <h1 className="bioHeading">My Story</h1>
@@ -33,6 +36,7 @@ function About() {
                     <img src={travel} alt="travel photos" />
                 </div>
             </section>
+
             <section className="interests d-flex align-items-center justify-content-center">
                 <h2 className="interestsTitle">Interests & Hobbies</h2>
                 <div className="allInterests">
@@ -55,6 +59,7 @@ function About() {
                 </div>
             </section>
         </section >
+        </animated.div>
     )
 }
 
