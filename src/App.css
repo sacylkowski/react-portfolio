@@ -1,7 +1,7 @@
 :root {
     --dark: #183a1d;
     --main: #fefbe9;
-    --mint: #e1eedd; 
+    --mint: #e1eedd;
     --accent-yellow: #f6c453;
     --accent-orange: #f0a04b;
 }
@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-  }
+}
 
 body {
     background-color: var(--main);
@@ -71,7 +71,6 @@ header nav ul {
     background-color: var(--main);
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
 
 .portrait img {
@@ -143,6 +142,7 @@ header nav ul {
 .interest-title {
     padding: 0 50px;
 }
+
 /* ABOUT ME END */
 
 /* CONTACT START */
@@ -166,6 +166,7 @@ header nav ul {
     font-weight: bold;
     font-size: 20px;
 }
+
 /* 
 .section-title {
     font-size: 20px;
@@ -175,8 +176,8 @@ header nav ul {
 } */
 
 .contact-form {
-   width: 500px;
-   padding-top: 15px;
+    width: 500px;
+    padding-top: 15px;
 }
 
 .contact-form h2 {
@@ -258,7 +259,7 @@ header nav ul {
     transition: transform 200ms ease-in;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.05);
 }
 
@@ -286,6 +287,7 @@ header nav ul {
     justify-content: center;
     gap: 1rem;
 }
+
 .githubLink {
     width: 45%;
     background-color: var(--dark);
@@ -330,6 +332,7 @@ header nav ul {
 .resumeIcon {
     color: var(--accent-orange);
 }
+
 .skills h2 {
     font-family: 'Merriweather', serif;
 }
@@ -337,7 +340,7 @@ header nav ul {
 /* RESUME END */
 
 /* FOOTER START */
- footer {
+footer {
     background-color: var(--accent-orange);
     bottom: 0;
     height: 60px;
@@ -366,3 +369,66 @@ header nav ul {
 }
 
 /* FOOTER END */
+
+
+
+/* RESPONSIVE */
+
+
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .header-title {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        line-height: 1;
+        padding-bottom: 2%;
+    }
+
+    .portrait {
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .moreInfo {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .allInterests {
+       flex-direction: column;
+       padding-bottom: 5%;
+    }
+
+    .contactMe {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        line-height: 1;
+        gap: 1rem;
+    }
+
+    .contact-form {
+        margin: auto;
+    }
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .resumeContainer {
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        line-height: 1;
+        gap: 3rem;
+    }
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 625px) {}
