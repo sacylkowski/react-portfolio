@@ -388,8 +388,13 @@ footer {
         line-height: 1;
     }
 
+    .portrait img {
+        margin: auto;
+    }
+
     .about-me {
         width: 100%;
+        margin-top: 10px;
     }
 
     .moreInfo {
@@ -432,11 +437,15 @@ footer {
         text-align: center;
         line-height: 1;
         gap: 3rem;
-        padding-bottom: 5%;
+        padding-bottom: 10%;
     }
 
     .portfolio {
         padding-bottom: 20%;
+    }
+
+    .portrait img {
+        height: 350px;
     }
 
 }
@@ -445,11 +454,6 @@ footer {
 @media screen and (max-width: 480px) {
     .contacts {
         width: 40%;
-    }
-
-    .portrait img {
-        height: 300px;
-        margin: auto;
     }
 
     .about-me h1 {
