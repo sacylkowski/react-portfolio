@@ -167,14 +167,6 @@ header nav ul {
     font-size: 20px;
 }
 
-/* 
-.section-title {
-    font-size: 20px;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-} */
-
 .contact-form {
     width: 500px;
     padding-top: 15px;
@@ -220,6 +212,7 @@ header nav ul {
     padding: 10%;
     border-radius: 50px;
     text-align: center;
+    width: fit-content;
 }
 
 .contactLinkedin {
@@ -228,6 +221,7 @@ header nav ul {
     margin-top: 20%;
     border-radius: 50px;
     text-align: center;
+    width: max-content;
 }
 
 .contacts a {
@@ -394,6 +388,10 @@ footer {
         line-height: 1;
     }
 
+    .about-me {
+        width: 100%;
+    }
+
     .moreInfo {
         flex-direction: column;
         margin: auto;
@@ -410,16 +408,18 @@ footer {
         flex-direction: column;
         margin: auto;
         text-align: center;
-        line-height: 1;
         gap: 1rem;
     }
 
     .contact-form {
         margin: auto;
+        width: -webkit-fill-available;
+        padding-left: 20px;
     }
 
     .contacts {
         width: 30%;
+        padding-bottom: 5%;
     }
 }
 
@@ -432,12 +432,35 @@ footer {
         text-align: center;
         line-height: 1;
         gap: 3rem;
+        padding-bottom: 5%;
     }
+
+    .portfolio {
+        padding-bottom: 20%;
+    }
+
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 480px) {
     .contacts {
         width: 40%;
+    }
+
+    .portrait img {
+        height: 300px;
+        margin: auto;
+    }
+
+    .about-me h1 {
+        padding-top: 10px;
+    }
+
+    .contactLinkedin {
+        margin-bottom: 20%;
+    }
+
+    .resumeContainer {
+        padding-bottom: 20%;
     }
 }
