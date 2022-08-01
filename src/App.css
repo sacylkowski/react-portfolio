@@ -244,13 +244,14 @@ header nav ul {
 
 .card {
     overflow: hidden;
-    box-shadow: 0 2px 20px lightgray;
+    box-shadow: 0 2px 20px darkgrey;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
     transition: transform 200ms ease-in;
+    height: 100%;
 }
 
 .card:hover {
